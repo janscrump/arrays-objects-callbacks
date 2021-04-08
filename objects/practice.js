@@ -75,13 +75,12 @@ favoriteThings.book = 'Harry Potter'
 
 const backPack = {
 
-}
+};
 
-let item = 'firstPocket'
-
-item[backPack] ='firstPocket'
-
-
+const item = 'firstPocket'
+backPack[item] = 'chapstick'
+backPack.color = 'green'
+alert(backPack)
 /*
   After you do the above, alert your entire backPack object.
 */

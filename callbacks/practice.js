@@ -29,6 +29,9 @@
 
 // Code Here 
  
+function first(array, cb) {
+  cb(array[0])
+}
 
 
 // Do not edit the code below.
@@ -51,6 +54,10 @@ first(names, function(firstName){
 
 //Code Here
 
+function last(array, cb) {
+  cb(array[array.length -1])
+}
+
 // Do not edit the code below.
 last(names, function(lastName){
   console.log('The last name in names is ' + lastName);
@@ -68,6 +75,10 @@ last(names, function(lastName){
 */
 
 //Code Here
+
+function multiply(num1, num2, cb) {
+  cb(num1 * num2)
+}
 
 // Do not edit the code below.
 multiply(4, 3, function(answer){
@@ -87,6 +98,10 @@ multiply(4, 3, function(answer){
 */
 
 //Code Here 
+
+function contains(array, name, cb) {
+  
+}
 
 // Do not edit the code below.
 contains(names, 'Colt', function(result){
