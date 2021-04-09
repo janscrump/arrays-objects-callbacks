@@ -100,7 +100,14 @@ multiply(4, 3, function(answer){
 //Code Here 
 
 function contains(array, name, cb) {
+  let check = false;
+  for(let i = 0; i < array.length; i++){
+    if(name == array[i]){
+      check = true;
+    }
+  }
   
+  check == true ? cb(true) : cb(false)
 }
 
 // Do not edit the code below.
